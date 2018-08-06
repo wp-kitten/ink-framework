@@ -1,0 +1,21 @@
+/**
+ * This file provides the basic styling for elements included in the Ink Framework
+ * @package \Ink
+ * @author: wp-kitten
+ * @author URI: http://codecanyon.net/user/wp-kitten
+ * @author URI: https://wp-kitten.github.io/
+ */
+.ink-notice.ink-is-dismissible { padding-right: 38px; position: relative; }
+.ink-notice .ink-notice-dismiss { position: absolute; top: 0; right: 1px; border: none; margin: 0; padding: 9px; background: 0 0; color: #72777c; cursor: pointer; text-decoration: none; }
+.ink-notice .ink-notice-dismiss:active, .ink-notice .ink-notice-dismiss:focus, .ink-notice .ink-notice-dismiss:hover { text-decoration: none; }
+.ink-notice .ink-notice-dismiss:before { background: 0 0; color: #72777c; content: "\f153"; display: block; font: 400 16px/20px dashicons; speak: none; height: 20px; text-align: center; width: 20px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/*
+ * Pages
+ */
+.ink-wrap {}
+.ink-wrap header { margin-bottom: 20px;}
+.ink-wrap header h1 { border-bottom: solid 1px #ddd; }
+.ink-wrap .ink-wrap-section { margin-bottom: 10px; position: relative; display: block; }
+.ink-wrap hr  { margin: 30px 0; background: #ddd; display: block; clear: both; }
+.ink-wrap .ink-from-button { margin-top: 20px; }
